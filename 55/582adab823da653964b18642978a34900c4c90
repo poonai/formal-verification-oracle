@@ -1,0 +1,35 @@
+.pi/prompts/zig_to_dafny_theorem_proving_prompt.md
+  s_116fd6a9e19695::t_96f6a1b9f7331e 1-73
+.pi/prompts/rust_to_dafny_porting_prompt.md
+  s_116fd6a9e19695::t_96f6a1b9f7331e 1-50
+.pi/prompts/zig_to_dafny_theorem_discovery_prompt.md
+  s_116fd6a9e19695::t_96f6a1b9f7331e 1-54
+harness.ts
+  s_116fd6a9e19695::t_269a8d8ed676ed 81
+  s_116fd6a9e19695::t_cd447998e340a1 82-86
+.pi/prompts/zig_to_dafny_theorem_judgement_prompt.md
+  s_116fd6a9e19695::t_96f6a1b9f7331e 1-31
+.pi/prompts/zig_to_dafny_spec_prompt.md
+  s_116fd6a9e19695::t_96f6a1b9f7331e 1-89
+wide_theorem_harness.ts
+  s_116fd6a9e19695::t_77ece51a7d3337 56-58
+  s_116fd6a9e19695::t_61683995baa677 55
+.pi/prompts/zig_to_dafny_theorem_selection_prompt.md
+  s_116fd6a9e19695::t_96f6a1b9f7331e 1-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "55582adab823da653964b18642978a34900c4c90",
+  "prompts": {},
+  "sessions": {
+    "s_116fd6a9e19695": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e557d-88f4-7bc2-a7a7-dc682104e91f",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "poonai <rbalajis25@gmail.com>"
+    }
+  }
+}
