@@ -52,9 +52,10 @@ type HarnessResult = {
 const BUN_ROOT = "/home/saint/bun";
 const OUTPUT_ROOT = "/home/saint/proof-rewrite/out";
 const SESSION_ROOT = "/home/saint/proof-rewrite/.pi-sessions";
-const RUST_PROMPT = "/home/saint/bun/.pi/prompts/rust_to_dafny_porting_prompt.md";
-const THEOREM_DISCOVERY_PROMPT = "/home/saint/bun/.pi/prompts/zig_to_dafny_theorem_discovery_prompt.md";
-const THEOREM_PROVING_PROMPT = "/home/saint/bun/.pi/prompts/zig_to_dafny_theorem_proving_prompt.md";
+const PROMPT_ROOT = path.join(".pi", "prompts");
+const RUST_PROMPT = path.join(PROMPT_ROOT, "rust_to_dafny_porting_prompt.md");
+const THEOREM_DISCOVERY_PROMPT = path.join(PROMPT_ROOT, "zig_to_dafny_theorem_discovery_prompt.md");
+const THEOREM_PROVING_PROMPT = path.join(PROMPT_ROOT, "zig_to_dafny_theorem_proving_prompt.md");
 
 function sanitizeRunId(value: string): string {
   return value.replace(/[^a-zA-Z0-9_-]/g, "_");

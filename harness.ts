@@ -78,11 +78,12 @@ type BenchmarkContext = {
 
 const BUN_ROOT = "/home/saint/bun";
 const DATASET_FILE = "/home/saint/proof-rewrite/dataset.jsonl";
-const RUST_PROMPT = "/home/saint/bun/.pi/prompts/rust_to_dafny_porting_prompt.md";
-const THEOREM_DISCOVERY_PROMPT = "/home/saint/bun/.pi/prompts/zig_to_dafny_theorem_discovery_prompt.md";
-const THEOREM_SELECTION_PROMPT = "/home/saint/bun/.pi/prompts/zig_to_dafny_theorem_selection_prompt.md";
-const THEOREM_PROVING_PROMPT = "/home/saint/bun/.pi/prompts/zig_to_dafny_theorem_proving_prompt.md";
-const THEOREM_JUDGEMENT_PROMPT = "/home/saint/bun/.pi/prompts/zig_to_dafny_theorem_judgement_prompt.md";
+const PROMPT_ROOT = path.join(".pi", "prompts");
+const RUST_PROMPT = path.join(PROMPT_ROOT, "rust_to_dafny_porting_prompt.md");
+const THEOREM_DISCOVERY_PROMPT = path.join(PROMPT_ROOT, "zig_to_dafny_theorem_discovery_prompt.md");
+const THEOREM_SELECTION_PROMPT = path.join(PROMPT_ROOT, "zig_to_dafny_theorem_selection_prompt.md");
+const THEOREM_PROVING_PROMPT = path.join(PROMPT_ROOT, "zig_to_dafny_theorem_proving_prompt.md");
+const THEOREM_JUDGEMENT_PROMPT = path.join(PROMPT_ROOT, "zig_to_dafny_theorem_judgement_prompt.md");
 const OUTPUT_ROOT = "/home/saint/proof-rewrite/out";
 const SESSION_ROOT = "/home/saint/proof-rewrite/.pi-sessions";
 const RANDOM_SAMPLE_SIZE = 5;
