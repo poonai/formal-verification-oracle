@@ -1,0 +1,15 @@
+{
+  "name": "proof-rewrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "harness": "node harness.ts",
+    "harness:wide": "node wide_theorem_harness.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0"
+}

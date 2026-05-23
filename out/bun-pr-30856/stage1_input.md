@@ -1,0 +1,1 @@
+@src/sql_jsc/mysql/protocol/DecodeBinaryValue.rs::decode_binary_value

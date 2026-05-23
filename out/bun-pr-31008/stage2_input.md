@@ -1,0 +1,1 @@
+@src/install/lockfile/bun.lockb.zig
