@@ -1,4 +1,4 @@
-# Proof Rewrite
+# Formal Verification Oracle
 
 A harness for using Claude Code and Dafny to semantically audit AI-generated Rust ports against their original Zig implementations in the Bun JavaScript runtime.
 
