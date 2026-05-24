@@ -1,0 +1,19 @@
+README.md
+  s_9f81b41c3fdc3d::t_1aed3b7259704c 1-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "9c8107dc07578aa9254451829c0553815e27ab0f",
+  "prompts": {},
+  "sessions": {
+    "s_9f81b41c3fdc3d": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "019e583b-388a-732a-a545-169a81995964",
+        "model": "gpt-5.5"
+      },
+      "human_author": "poonai <rbalajis25@gmail.com>"
+    }
+  }
+}
